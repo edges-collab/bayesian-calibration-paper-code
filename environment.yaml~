@@ -1,0 +1,22 @@
+name: edges
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - h5py
+  - numpy=1.21.2
+  - astropy
+  - scipy
+  - cmake
+  - matplotlib
+  pip:
+    - edges-io
+    - edges-cal
+    - edges-analysis
+    - edges-estimate
+    - git+https://github.com/PolyChord/PolyChordLite@master
+    - yabf
+    - getdist
+    - tqdm
+    - GitPython
+prefix: /home/smurray/miniconda3/envs/edges
